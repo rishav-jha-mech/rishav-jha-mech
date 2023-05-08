@@ -1,0 +1,63 @@
+#services .card .icon-container{
+    width:  95px;
+    height: 95px;
+    color: aliceblue;
+    background-color: var(--theme-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#services .card {
+    height: 340px;
+    border-color: rgba(102, 102, 255, 0.2);
+    padding: 2rem 1.5rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#services .card:hover {
+    border-color: var(--theme-color);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transform: scale(1.04);
+}
+
+#services .card .icon-container svg {
+    transform: scale(0.6);
+}
+
+#services .card .card-body h5 {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#services .card .card-body article {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+@media (max-width: 1401px) {
+    #services .card {
+        height: 380px;
+    }
+}
+
+@media (max-width: 1201px) {
+    #services .card {
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media (max-width: 982px) {
+    #services .card {
+        padding: 1rem 1rem;
+        height: unset;
+        min-height: 280px;
+    }
+}

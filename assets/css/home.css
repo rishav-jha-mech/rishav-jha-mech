@@ -1,0 +1,113 @@
+/* HOME */
+/* #home .extra {} */
+
+#home .left {
+    flex: 1.2;
+}
+
+#home .left button {
+    font-size: 1.25rem;
+    padding: 0.65rem 1.5rem;
+    border: 1px solid var(--theme-color);
+}
+
+#home .left .outline-btn{
+    border: 1px solid var(--theme-color);
+    color: var(--theme-color) !important;
+    background: #fff !important;
+    transition: all 0.3s ease-in-out;
+    margin-right: 1rem;
+}
+#home .left .outline-btn:hover{
+    color: #fff !important;
+    background: var(--theme-color) !important;
+}
+#home .right {
+    flex: 1;
+}
+
+#home .left .heading {
+    font-size: var(--text-heading);
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+#home .left capsule {
+    font-weight: 200;
+    font-size: 1.5rem;
+    background: var(--theme-color);
+    color: var(--bs-white);
+    padding: 0.65rem 1.5rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    border-radius: 60px;
+}
+
+#home .left .subheading {
+    font-size: var(--text-subheading);
+    color: var(--bs-dark);
+    font-weight: 600;
+}
+
+#home .left .text {
+    font-size: var(--text-less);
+    line-height: var(--text-height-less);
+    color: var(--bs-gray-600);
+}
+
+#home .right #me {
+    width: 175px;
+}
+
+#home .img-container {
+    height: 325px;
+    width: 350px;
+}
+
+
+@media (max-width: 600px) {
+    #home .left capsule {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    #home .left .btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #home .left button {
+        font-size: 1rem;
+        padding: 0.8rem 1rem;
+    }
+    #home .left,
+    #home .right {
+        flex: 1;
+    }
+    #home .right #me {
+        width: 175px;
+    }
+
+    #home .img-container {
+        height: 270px;
+        width: 270px;
+    }
+}
+@media (max-width: 380px) {
+    #home .left .heading {
+        margin-top: 1.25rem;
+    }
+}
+@media (max-width: 991px) {
+    #home {
+        max-width: max-content;
+    }
+    #home .left capsule {
+        margin-top: 0;
+    }
+}
+
+#whatido{
+    height: 42px;
+}

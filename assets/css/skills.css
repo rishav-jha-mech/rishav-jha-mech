@@ -1,0 +1,58 @@
+
+/* Skills Section */
+#skills {
+    padding: 2rem 0;
+}
+
+#skills progress {
+    border: none;
+    height: 0.8rem;
+    overflow: hidden;
+    background: var(--theme-color);
+    border-radius: 16px;
+}
+
+#skills progress::-webkit-progress-value {
+    background: var(--theme-color);
+    border-radius: 16px;
+
+}
+
+#skills progress::-webkit-progress-bar {
+    background: var(--bs-gray-200);
+}
+
+#skills button {
+    font-size: var(--text-md);
+    font-weight: 600;
+    padding: 0.8rem 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 0.3rem;
+    border: 1px solid var(--bs-gray-300);
+    transition: 0.5s ease;
+}
+#skills button:hover {
+    background: var(--bs-gray-200);
+    transition: 0.5s ease;
+}
+
+#skills .accordion-body {
+    padding: 1rem 4rem;
+}
+
+#skills .skill-item {
+    margin-bottom: 1rem;
+}
+
+@media(max-width:600px) {
+    #skills .accordion-body {
+        padding: 0 2rem;
+    }
+}
+
+#skills-images{
+    overflow-x: scroll;
+}
+#skills::-webkit-scrollbar{
+    display: none;
+}

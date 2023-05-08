@@ -1,0 +1,94 @@
+
+/* ABOUT SECTION */
+#about {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#about .heading {
+    font-size: var(--text-heading);
+    font-weight: 700;
+}
+
+#about .subheading {
+    font-size: var(--text-subheading);
+    color: #333;
+}
+
+#about span {
+    font-family: var(--body-font);
+    font-style: var(--body-font);
+}
+
+#about .gradient1 {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border-radius: 16px;
+    background: linear-gradient(127deg, var(--theme-color), var(--theme-primary));
+    overflow: hidden;
+}
+
+#about img {
+    position: absolute;
+    bottom: 0;
+    left: 6rem;
+}
+
+#about .text {
+    font-size: 1.1rem;
+    line-height: 2;
+    color: var(--bs-gray-600);
+}
+
+#about .blockHero {
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    font-weight: 900;
+    color: var(--bs-dark);
+}
+
+#about .title {
+    font-size: 1.1rem;
+    display: block;
+    margin-top: -0.25rem;
+    color: var(--bs-gray-600);
+}
+
+@media(max-width: 1200px) {
+    #about .blockHero {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    #about {
+        max-width: max-content;
+    }
+
+    #about .text {
+        text-align: center;
+    }
+
+    #about .left {
+        justify-content: center;
+    }
+
+    #about .gradient1 {
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width: 600px) {
+    #about .gradient1 {
+        width: 280px;
+        height: 280px;
+    }
+
+    #about img {
+        bottom: -3rem;
+        transform: scale(0.8);
+        left: 2rem;
+    }
+}

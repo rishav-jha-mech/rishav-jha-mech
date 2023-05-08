@@ -1,0 +1,312 @@
+/* Project Section */
+
+#projects .project-item {
+    --d: 5px;
+    /* folded part */
+    --c: blue;
+    /* color */
+    --f: 16px;
+    /* ribbon font-size */
+
+    display: inline-block;
+    position: relative !important;
+    overflow: hidden;
+    transition: 0.5s;
+    border-color: rgba(102, 102, 255, 0.2);
+    cursor: pointer;
+}
+
+#projects .project-item .overlay {
+    display: none;
+    transition: 0.5s;
+}
+
+#projects .project-item .overlay .btn-containers {
+    flex: 1;
+    display: flex;
+    align-items: end;
+}
+
+#projects .project-item:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.5rem 1rem;
+}
+
+#projects .project-item:hover {
+    border-color: var(--theme-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.04);
+}
+
+#projects .project-item .card-body {
+    transition: 0.25s;
+}
+
+#projects .project-item:hover .card-body {
+    padding: 0;
+    transition: 0.25s;
+}
+
+#projects .project-item:hover .project-image img {
+    filter: blur(2px);
+}
+
+#projects #web-dev-projects .project-item .card-body {
+    padding: 1.5rem;
+}
+#projects .project-item .card-body p {
+    font-size: 0.9rem;
+}
+#projects #web-dev-projects .project-item .card-body p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+}
+
+@media (max-width: 768px) {
+    #projects #web-dev-projects .project-item .card-body p {
+        -webkit-line-clamp: 3;
+        font-size: 0.8rem;
+    }
+}
+
+#projects #web-dev-projects .project-item:hover img {
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+
+#projects .project-item::before {
+    z-index: 1000;
+    content: attr(data-ribbon);
+    position: absolute;
+    font-size: var(--f);
+    top: 0;
+    right: 0;
+    transform: translate(29.29%, -100%) rotate(45deg);
+    color: #fff;
+    text-align: center;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    transform-origin: bottom left;
+    padding: 5px 35px calc(var(--d) + 5px);
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 0 0) bottom/100% var(--d) no-repeat var(--c);
+    background-clip: padding-box;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, calc(100% - var(--d)) calc(100% - var(--d)), var(--d) calc(100% - var(--d)), 0 100%);
+    -webkit-mask: linear-gradient(135deg, transparent calc(50% - var(--d) * 0.707), #fff 0) bottom left,
+        linear-gradient(-135deg, transparent calc(50% - var(--d) * 0.707), #fff 0)bottom right;
+    -webkit-mask-size: 300vmax 300vmax;
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+}
+
+#projects .left::before {
+    left: 0;
+    right: auto;
+    transform: translate(-29.29%, -100%) rotate(-45deg);
+    transform-origin: bottom right;
+}
+
+#projects .card {
+    border-radius: 8px;
+}
+
+#projects .modal-body .inactive {
+    background-color: #fff !important;
+    color: var(--theme-color) !important;
+    border-color: var(--theme-color);
+    transition: 0.5s ease;
+}
+
+#projects .modal-body .whiteBtn {
+    background-color: #fff !important;
+    color: var(--theme-color) !important;
+    border-color: var(--theme-color);
+    transition: 0.5s ease;
+}
+
+#projects .modal-body .btn {
+    flex: 1;
+    margin: 0 0.25rem;
+    font-size: 1rem;
+    padding: 0.8rem !important;
+}
+
+#projects .modal-body .whiteBtn:hover {
+    transition: 0.5s ease;
+    background: var(--bs-gray-200) !important;
+}
+
+#projects .my-active {
+    transition: 0.5s ease;
+    background: var(--theme-color) !important;
+    color: var(--bs-white) !important;
+}
+
+#projects .my-active:hover {
+    background: var(--theme-color) !important;
+}
+
+#projects .card h6 {
+    font-size: 1.1rem;
+}
+
+#projects .card img {
+    height: 200px;
+    border-radius: 8px;
+    border: 1px solid var(--bs-gray-300);
+}
+
+#projects .card .btn {
+    font-size: 0.8rem;
+    padding: 0.5rem 0.75rem;
+    flex: 1;
+    transition: 0.5s ease;
+    border: 1px solid var(--theme-color);
+}
+
+#projects .card .pri {
+    background: var(--theme-color) !important;
+}
+
+#projects .card .btn:hover {
+    background: var(--bs-gray-100) !important;
+    color: var(--theme-color) !important;
+    transition: 0.5s ease;
+}
+
+#projects .sec {
+    background: var(--bs-white) !important;
+    color: var(--theme-color) !important;
+    transition: 0.5s ease;
+}
+
+#web-dev-projects {
+    animation: project-animation 0.5s ease-in-out;
+    transition: 0.5s ease;
+}
+
+#app-dev-projects {
+    animation: project-animation 0.5s ease-in-out;
+    transition: 0.5s ease;
+}
+
+#projects .app-img-carousel {
+    height: 100% !important;
+    object-fit: cover;
+}
+
+@keyframes project-animation {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 
+.modal1 img{
+    max-height: 300px !important;
+    padding: 0.5rem;
+    object-fit: contain;
+} */
+
+.modal .modal-title {
+    font-size: 1.5rem !important;
+    font-weight: 600;
+}
+
+.modal .modal-body {
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+.modal .modal-body button a {
+    text-decoration: none;
+}
+
+#web-dev-projects .modal2 .modal-body {
+    padding: 3rem 1rem;
+}
+
+#web-dev-projects .modal2 .modal-body img {
+    min-height: 350px;
+}
+
+#projects .modal .modal-body img {
+    display: block;
+    margin: 1rem auto;
+    min-height: 300px;
+}
+
+#projects .modal .modal-body .btn a {
+    color: unset;
+    font-size: 1rem;
+    padding: 1.25rem 2rem;
+}
+
+@media (max-width: 768px) {
+    #projects .card h6 {
+        font-size: 1.25rem;
+    }
+
+    #projects .modal .modal-body .btn a {
+        font-size: 0.9rem;
+        padding: 1rem 0;
+    }
+
+    #web-dev-projects .modal .modal-body img {
+        min-height: unset !important;
+    }
+
+    .modal1 img {
+        max-height: none !important;
+        padding: 0;
+    }
+
+    #projects .card img {
+        height: 100%;
+    }
+
+    #projects .modal .modal-body .project-description img {
+        min-height: unset;
+    }
+}
+
+
+#projects #togBtns .btn {
+    background-color: #fff !important;
+    color: var(--theme-color) !important;
+    border-color: var(--theme-color);
+    transition: 0.5s ease;
+}
+
+#projects #togBtns .btn:hover {
+    transition: 0.5s ease;
+    background: var(--bs-gray-200) !important;
+}
+
+#projects #togBtns .my-active {
+    transition: 0.5s ease;
+    background: var(--theme-color) !important;
+    color: var(--bs-white) !important;
+}
+
+#projects #togBtns .my-active:hover {
+    background: var(--theme-color) !important;
+}
