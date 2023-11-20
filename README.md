@@ -1,40 +1,8 @@
 <h1 align="center">Hello I'm Rishav Jha 👋</h1>
-<h3 align="center">A Full Stack Web and App Developer</h3>
-<div align="center">
-    <img align="center" alt="GIF" src="./2.gif" />
-</div>
+<h3 align="center">A Full Stack App Developer</h3>
+
 
 <br />
-
-<div align ="center">
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=rishav-jha-mech&label=Profile%20views&color=0e75b6&style=flat" alt="rishav-jha-mech" /> </p>
-</div>
-
-
-- 🌱 I’m currently learning **Flutter & AWS**.
-
-- 👯 I’m looking to collaborate on **Web Development (HTML,CSS,Vanilla JS, React Express Django or Flask) projects and App Development (Flutter or React Native) projects.**
-
-- 🚀 Web Developer at **Prakriti, NIT Durgapur.**
-
-- 🐧 Junior Web Developer & Event Manager at **Web Design & Creative Team, CCA NIT Durgapur.**
-
-- 👨‍💻 You can find my projects at [Github](https://github.com/rishav-jha-mech)
-
-- 💬 Ask me about **Web Development, App Development or Devops.**
-
-- 📫 Reach me **rishav.rj74@gmail.com.**
-
-- 📄 Know about my experiences at [LinkedIn](https://www.linkedin.com/in/rishav-jha-549b45203/)
-
-- ⚡ Obsessed with **Cascading Style Sheets (CSS)**
-
-- ⚒ I'm currently working on UV Plus Downloader
-
-<br />
-
- <hr/>
-
 
  
 <div align="center">    
