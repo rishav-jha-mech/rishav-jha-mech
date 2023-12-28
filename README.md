@@ -26,7 +26,7 @@
 
 
 <p>
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=rishav-jha-mech&show_icons=true&locale=en&layout=compact" alt="rishav-jha-mech" />
+    <img align="center" src="https://github-readme-stats-wine-xi-29.vercel.app/api/top-langs?username=rishav-jha-mech&layout=donut-vertical&show_icons=true&locale=en&langs_count=8" alt="rishav-jha-mech" />
 </p>
 
 </div>
@@ -124,7 +124,7 @@
 <br/>
 
 
- <img  alt="Rishav Jha GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=rishav-jha-mech&show_icons=true&fire=DD2727" />
+ <img  alt="Rishav Jha GitHub Stats" src="https://github-readme-stats-wine-xi-29.vercel.app/api?username=rishav-jha-mech&show_icons=true&theme=transparent" />
 
 </div>
  <hr/>
