@@ -2,7 +2,7 @@
 
 # Hi, I'm Rishav Jha 👋 
 
-![Profile Visits](https://komarev.com/ghpvc/?username=rishav-jha-mech&style=for-the-badge&color=FFBA07&label=Profile%20Visits)
+![Profile Visits](https://komarev.com/ghpvc/?username=rishav-jha-mech&style=for-the-badge&color=29B5E8&label=Profile%20Visits)
 
 </div>
 
