@@ -6,6 +6,19 @@
 
 </div>
 
+<p align="center">
+  <em>
+    Our time has pretty much passed.<br/>
+    They don't want folk like us no more.<br/>
+    It's their rules, or be damned with you.<br/><br/>
+    No more SEs. No more devs.<br/>
+    Now it's us being hunted, and it ain't stopping.<br/><br/>
+    We went and made our choices a long time ago.<br/>
+    I guess we gotta pay for our sins.
+  </em>
+</p>
+
+
 ## 💫 About Me
 
 - 🧠 Versatile developer building **games, tools, frontends, backends**, and **cross-platform apps**
@@ -21,7 +34,7 @@
 [
 ![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/16330307/rishav-jha) [
 ![email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rishav.rj74@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-brightgreen?style=for-the-badge&logoColor=white)](https://rishav-jha-mech.github.io/devraj/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-brightgreen?style=for-the-badge&logoColor=white)](https://rishavjha.com)
 
 ## 💻 Tech Stack:
 
