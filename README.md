@@ -21,10 +21,11 @@
 
 ## 💫 About Me
 
-- 🧠 Product engineer with 3 years at consumer startups, shipping across **mobile, web, APIs** and **AI**
+- 🧠 Cross-platform app developer building for **iOS, Android, web** and **desktop**
 - 📱 **React Native** and **Flutter** apps live on the App Store and Google Play
-- 🕹️ Rebuilt the real-time 1v1 game server at Cuemath on **Colyseus**, about 6,000 matches a day
-- 🦀 At Tessell, wrote **Rust** Tauri plugins, SSE streaming for AI agents and a hackathon winning **RAG** service
+- 🖥️ Desktop apps with **Tauri** and **Rust**, web apps with **React** and **Next.js**
+- 🕹️ Real-time 1v1 games on **Colyseus** at Cuemath, about 6,000 matches a day
+- 🤖 AI features too: SSE streaming for agents and a hackathon winning **RAG** service
 - 🌱 **GSoC** contributor, then mentor in 2024 and 2025 for the Palisadoes Foundation
 - 🧩 Building **Almond AI** with a small team, a shared memory layer for AI tools over **MCP**
 
