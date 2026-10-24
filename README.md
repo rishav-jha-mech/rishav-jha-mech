@@ -6,18 +6,6 @@
 
 </div>
 
-<p align="center">
-  <em>
-    Our time has pretty much passed.<br/>
-    They don't want folk like us no more.<br/>
-    It's their rules, or be damned with you.<br/><br/>
-    No more SEs. No more devs.<br/>
-    Now it's us being hunted, and it ain't stopping.<br/><br/>
-    We went and made our choices a long time ago.<br/>
-    I guess we gotta pay for our sins.
-  </em>
-</p>
-
 
 ## 💫 About Me
 
